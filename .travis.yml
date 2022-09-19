@@ -58,7 +58,7 @@ install:
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]];   then cd $TRAVIS_BUILD_DIR && pip3 install --upgrade --force-reinstall numpy scipy scikit-learn; fi
 
 
-notifications:
-  slack:
-    secure: aTCuexl+J0s+ll8sS+p65Atmr9hgOYg0Qkv1nOwb+2oVlJtIYpwLymYZdMymeMtcbK8nlCKGuZRj9jpowzLvSU5kmmmbUdCskEzLf8guE/TUN5iMcIdvKnlAxfJ/MBXw59bjIuF3saYmzpkYbaBvj150M/tXMkYMLSgqwFMQq6U=
+# notifications:
+#   slack:
+#     secure: aTCuexl+J0s+ll8sS+p65Atmr9hgOYg0Qkv1nOwb+2oVlJtIYpwLymYZdMymeMtcbK8nlCKGuZRj9jpowzLvSU5kmmmbUdCskEzLf8guE/TUN5iMcIdvKnlAxfJ/MBXw59bjIuF3saYmzpkYbaBvj150M/tXMkYMLSgqwFMQq6U=
 
